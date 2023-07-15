@@ -10,23 +10,23 @@
 <br>
 <h3> [Binary Tree] </h3>
 
-<h4> Node Class </h4>
+<h4> #Node Class </h4>
 <h5> class Attribute : data / Node left / Node right </h5>
 <h5> class method : addLeft / addRight / deleteLeft / deleteRight </h5>
 
-<h4> BinaryTree Class </h4>
+<h4> #BinaryTree Class </h4>
 <h5> class Attribute : nodeCount / Node head(head node) </h5>
 <h5> class method : addNode -> Before conneting the nodes, declare it as the node of the tree </h5>
 <h5> class method : Inorder / Postorder / Preorder  -> Tree Traversal Algorithm </h5>
 <h5> class method : copy -> Copy an existing tree to a new tree </h5>
 <h5> class method : equals -> Compare whether the two trees are the same </h5>
-
+<br>
 <h3> [Binary Search Tree] </h3>
 
-<h4> TreeNode Class </h4>
+<h4> #TreeNode Class </h4>
 <h5> class Attribute : key / TreeNode left / TreeNode right / index / runIndex</h5>
 
-<h4> Binary Search Tree Class </h4>
+<h4> #Binary Search Tree Class </h4>
 <h5> class Attribute : TreeNode head(head node) / nodeCount / indexNum </h5>
 <h5> class method : insertNode / adjustIndex -> insert newNode and Index is given according to the Inorder traversal </h5>
 <h5> class method : search ->  Find the same value as the key that the user wants and returns the index of the node (Using recursion) </h5>
